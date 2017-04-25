@@ -1,7 +1,6 @@
 package clanmelee;
 
-import clanmelee.Clan1.Clan1;
-import clanmelee.Clan2.Clan2;
+import ClanMeme.ClanHaug;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,8 +11,7 @@ public class ClanFactory {
 
         int clanID = 0;
 
-        clans.add(new Clan1(clanID++));
-        clans.add(new Clan2(clanID++));
+        clans.add(new ClanHaug(clanID++));
 
 
         return clans;
